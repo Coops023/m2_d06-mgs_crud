@@ -30,6 +30,7 @@ router.get(
 // ****************************************************************************************
 router.get("/:id", (req, res)=>{
   Book.findById(req.params.id)
+  .populate('author')
   .then((book)=> {
     res.render('book-details', book)
   })
