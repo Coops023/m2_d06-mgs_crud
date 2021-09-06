@@ -1,7 +1,7 @@
 // bin/seeds.js
 const mongoose = require('mongoose');
 
-const books = require("./books-data")
+const books = require("./book-data")
 
 const Book = require('../models/Book.model');
 

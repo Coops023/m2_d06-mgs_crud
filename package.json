@@ -6,7 +6,8 @@
     "start": "node ./bin/www",
     "start:dev": "nodemon ./bin/www",
     "start:teach": "PORT=3001 nodemon ./bin/www",
-    "debug": "DEBUG=* nodemon ./bin/www"
+    "debug": "DEBUG=* nodemon ./bin/www",
+    "seed-db": "node ./bin/seeds.js"
   },
   "dependencies": {
     "bcrypt": "^5",
